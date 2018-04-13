@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a,
+u {
+  text-decoration: none;
+  color: #000;
+}
+i,
+em {
+  font-style: normal;
+}
+b {
+  font-weight: normal;
+}
+html,
+body,
+.wrap {
+  font-size: 0.32rem;
+  width: 100%;
+  height: 100%;
+  font-family: "microsoft yahei";
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  height: 2.56rem;
+  padding: 0 .2rem;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  display: flex;
+  flex: 1;
+  height: 1.42666667rem;
+  justify-content: center;
+  align-items: center;
+}
+header .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #7B7A7B;
+}
+header .box b {
+  width: 60%;
+  height: 0.8rem;
+  background: #EEEFF0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .2rem;
+}
+header .box b i {
+  color: #EE7B31;
+  margin-right: .3rem;
+}
+header .box b input {
+  width: 50%;
+  border: none;
+  outline: none;
+  background: #EEEFF0;
+}
+section {
+  flex: 1;
+  overflow-y: scroll;
+}
+section .swiper-container {
+  width: 100%;
+  margin-bottom: 0.53333333rem;
+}
+section .swiper-container .swiper-slide img {
+  width: 100%;
+  display: inline-block;
+}
+section .box h1 {
+  height: 1.70666667rem;
+  border-top: 1px solid #ccc;
+  line-height: 1.70666667rem;
+  padding-left: 0.34666667rem;
+}
+section .box .nei {
+  display: flex;
+}
+section .box .nei dl {
+  flex: 1;
+  margin-bottom: .3rem;
+}
+section .box .nei dl dt img {
+  width: 4.96rem;
+  height: 2.78666667rem;
+}
+footer ul {
+  display: flex;
+  height: 1.33333333rem;
+}
+footer ul li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+}
+footer ul li b {
+  font-size: 0.53333333rem;
+}
+footer ul li i {
+  margin-top: .1rem;
+}
